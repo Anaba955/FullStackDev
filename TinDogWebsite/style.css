@@ -37,13 +37,3 @@
     height: 100px;
     border-radius: 50%;
 }
-
-.imgs {
-    display: flex;
-    justify-content: space-around;
-}
-
-.imgs img {
-    width: 7rem;
-    height: 30px;
-}
