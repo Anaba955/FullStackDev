@@ -19,7 +19,7 @@ function App() {
     if (charAllowed)  str += "!@#$%^&*_+=-()[]{}~`,./"
 
     for(let i = 1; i <= length; i++) {
-      let index = Math.floor(Math.random() * str.length + 1)
+      let index = Math.floor(Math.random() * str.length)
       pass += str.charAt(index);
     }
     setPassword(pass);
